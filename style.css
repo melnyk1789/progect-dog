@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #110000;
+  }
+
+  .hero {
+  
+    justify-content: space-between; 
+  
+    padding: 0 10%;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+
+  .hero-continer h1 {
+    font-size: 3rem; 
+    color: #000;
+    margin-bottom: 20px; 
+  }
+  
+  .hero-continer h1 span {
+    font-weight: bold 
+  }
+  
+  .hero-continer button {
+    background-color: #a3ff9f;
+ 
+    padding: 10px 20px; 
+    font-size: 1.2rem; 
+    color: #000; 
+
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .hero-continer button:hover {
+    background-color: #90e58c; 
+  }
+  .hero-continer img {
+    max-width: 50%; 
+
+  }
+  

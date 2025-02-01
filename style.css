@@ -1,54 +1,42 @@
-
 body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+}
+h1, h2, h3, p, ul{
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.container{
+  margin: 0px auto;
+  width: 1620px;
+}
+/*header*/
+.header{
+  padding: 32px 0px;
+  background-color: #121212;
   }
-  
-  header {
-    display: flex;
-    align-items: center;
-    padding: 20px 10%;
-    background-color: #110000;
+  .header-list{
+   display: flex;
+   align-items: center;
+   gap: 100px;}
+  .header-link {
+  font-size: 24px;   
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
   }
-
-  .hero {
-  
-    justify-content: space-between; 
-  
-    padding: 0 10%;
-    height: 100vh;
-    background-color: #fff;
+  .header-link:hover{
+  color: #B2FFA6;
   }
-  
-
-  .hero-continer h1 {
-    font-size: 3rem; 
-    color: #000;
-    margin-bottom: 20px; 
+  /* section 1 */
+  .hero-container{
+  display: flex ;
   }
-  
-  .hero-continer h1 span {
-    font-weight: bold 
-  }
-  
-  .hero-continer button {
-    background-color: #a3ff9f;
- 
-    padding: 10px 20px; 
-    font-size: 1.2rem; 
-    color: #000; 
-
-    cursor: pointer; 
-    font-weight: bold; 
-    transition: background-color 0.3s ease; 
-  }
-  
-  .hero-continer button:hover {
-    background-color: #90e58c; 
-  }
-  .hero-continer img {
-    max-width: 50%; 
-
-  }
-  

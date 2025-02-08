@@ -39,7 +39,6 @@ ul{
   /* section 1 */
   .hero {
    background-color: #FFFFFF;
-   font-weight: 300;
   }
 .hero-container {
    display: flex;
@@ -145,9 +144,9 @@ h3 {
     line-height: 1.5;
 }
 
+   /* section 4 */
 
-
-section {
+section{
   background-color: #EFEFEF;
   text-align: center;
   padding: 50px 0;
@@ -177,7 +176,6 @@ p {
 }
 
 .service-item {
-  background-color: #ffffff;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -203,8 +201,10 @@ p {
   border: 2px solid #6DD47E;
   background-color: transparent;
   text-decoration: none;
+  margin-top: 45px;
   border-radius: 5px;
 }
+   /* footer */
 footer {
   background-color: #121212;
   padding: 20px 40px;
